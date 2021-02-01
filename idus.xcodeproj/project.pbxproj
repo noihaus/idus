@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		322D282E1781088C555F803C /* Pods_idusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D282F82A72EE089AD423078 /* Pods_idusTests.framework */; };
+		7F3D2FFA7FE4BC652CEA2F22 /* Pods_idus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2339422F198216D88C59E065 /* Pods_idus.framework */; };
+		CF1F692925C7BAF700051DCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1F692825C7BAF700051DCA /* AppDelegate.swift */; };
+		CF1F693225C7BAF700051DCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1F693125C7BAF700051DCA /* Assets.xcassets */; };
+		CF1F693525C7BAF700051DCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1F693325C7BAF700051DCA /* LaunchScreen.storyboard */; };
+		CF1F694025C7BAF700051DCA /* idusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1F693F25C7BAF700051DCA /* idusTests.swift */; };
+		CF1F694B25C7BAF700051DCA /* idusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1F694A25C7BAF700051DCA /* idusUITests.swift */; };
+		CFEB62E973144DC46A98A287 /* Pods_idus_idusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090276574F6C9FE8A8607C9B /* Pods_idus_idusUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF1F693C25C7BAF700051DCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF1F691D25C7BAF700051DCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF1F692425C7BAF700051DCA;
+			remoteInfo = idus;
+		};
+		CF1F694725C7BAF700051DCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF1F691D25C7BAF700051DCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF1F692425C7BAF700051DCA;
+			remoteInfo = idus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		090276574F6C9FE8A8607C9B /* Pods_idus_idusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_idus_idusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1361BB7F3A9B8F07B83DF278 /* Pods-idusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idusTests.debug.xcconfig"; path = "Target Support Files/Pods-idusTests/Pods-idusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2339422F198216D88C59E065 /* Pods_idus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_idus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DAABD7BEB7EACE0AA234F6C /* Pods-idus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idus.debug.xcconfig"; path = "Target Support Files/Pods-idus/Pods-idus.debug.xcconfig"; sourceTree = "<group>"; };
+		4D282F82A72EE089AD423078 /* Pods_idusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_idusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F648C03511BFEBAA41F8F3C /* Pods-idus-idusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idus-idusUITests.release.xcconfig"; path = "Target Support Files/Pods-idus-idusUITests/Pods-idus-idusUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6B2EA653A6D66A29F7DDBAA3 /* Pods-idusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idusTests.release.xcconfig"; path = "Target Support Files/Pods-idusTests/Pods-idusTests.release.xcconfig"; sourceTree = "<group>"; };
+		B063BA9F00E63C32B99FB6C8 /* Pods-idus-idusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idus-idusUITests.debug.xcconfig"; path = "Target Support Files/Pods-idus-idusUITests/Pods-idus-idusUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF1F692525C7BAF700051DCA /* idus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = idus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1F692825C7BAF700051DCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF1F693125C7BAF700051DCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF1F693425C7BAF700051DCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF1F693625C7BAF700051DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF1F693B25C7BAF700051DCA /* idusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = idusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1F693F25C7BAF700051DCA /* idusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = idusTests.swift; sourceTree = "<group>"; };
+		CF1F694125C7BAF700051DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF1F694625C7BAF700051DCA /* idusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = idusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1F694A25C7BAF700051DCA /* idusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = idusUITests.swift; sourceTree = "<group>"; };
+		CF1F694C25C7BAF700051DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6677168159924923460DB0D /* Pods-idus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idus.release.xcconfig"; path = "Target Support Files/Pods-idus/Pods-idus.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF1F692225C7BAF700051DCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3D2FFA7FE4BC652CEA2F22 /* Pods_idus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1F693825C7BAF700051DCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322D282E1781088C555F803C /* Pods_idusTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1F694325C7BAF700051DCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEB62E973144DC46A98A287 /* Pods_idus_idusUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E9B003A40EB176A1FC455DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2339422F198216D88C59E065 /* Pods_idus.framework */,
+				090276574F6C9FE8A8607C9B /* Pods_idus_idusUITests.framework */,
+				4D282F82A72EE089AD423078 /* Pods_idusTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1E613EB959FCEB759E4CD5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DAABD7BEB7EACE0AA234F6C /* Pods-idus.debug.xcconfig */,
+				D6677168159924923460DB0D /* Pods-idus.release.xcconfig */,
+				B063BA9F00E63C32B99FB6C8 /* Pods-idus-idusUITests.debug.xcconfig */,
+				4F648C03511BFEBAA41F8F3C /* Pods-idus-idusUITests.release.xcconfig */,
+				1361BB7F3A9B8F07B83DF278 /* Pods-idusTests.debug.xcconfig */,
+				6B2EA653A6D66A29F7DDBAA3 /* Pods-idusTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CF1F691C25C7BAF700051DCA = {
+			isa = PBXGroup;
+			children = (
+				CF1F692725C7BAF700051DCA /* idus */,
+				CF1F693E25C7BAF700051DCA /* idusTests */,
+				CF1F694925C7BAF700051DCA /* idusUITests */,
+				CF1F692625C7BAF700051DCA /* Products */,
+				A1E613EB959FCEB759E4CD5E /* Pods */,
+				7E9B003A40EB176A1FC455DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF1F692625C7BAF700051DCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF1F692525C7BAF700051DCA /* idus.app */,
+				CF1F693B25C7BAF700051DCA /* idusTests.xctest */,
+				CF1F694625C7BAF700051DCA /* idusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1F692725C7BAF700051DCA /* idus */ = {
+			isa = PBXGroup;
+			children = (
+				CF1F692825C7BAF700051DCA /* AppDelegate.swift */,
+				CF1F693125C7BAF700051DCA /* Assets.xcassets */,
+				CF1F693325C7BAF700051DCA /* LaunchScreen.storyboard */,
+				CF1F693625C7BAF700051DCA /* Info.plist */,
+			);
+			path = idus;
+			sourceTree = "<group>";
+		};
+		CF1F693E25C7BAF700051DCA /* idusTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF1F693F25C7BAF700051DCA /* idusTests.swift */,
+				CF1F694125C7BAF700051DCA /* Info.plist */,
+			);
+			path = idusTests;
+			sourceTree = "<group>";
+		};
+		CF1F694925C7BAF700051DCA /* idusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF1F694A25C7BAF700051DCA /* idusUITests.swift */,
+				CF1F694C25C7BAF700051DCA /* Info.plist */,
+			);
+			path = idusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF1F692425C7BAF700051DCA /* idus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1F694F25C7BAF700051DCA /* Build configuration list for PBXNativeTarget "idus" */;
+			buildPhases = (
+				02153E384FC0D8DCD7850499 /* [CP] Check Pods Manifest.lock */,
+				CF1F692125C7BAF700051DCA /* Sources */,
+				CF1F692225C7BAF700051DCA /* Frameworks */,
+				CF1F692325C7BAF700051DCA /* Resources */,
+				EDDDDE41E0B2031861D297B6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = idus;
+			productName = idus;
+			productReference = CF1F692525C7BAF700051DCA /* idus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF1F693A25C7BAF700051DCA /* idusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1F695225C7BAF700051DCA /* Build configuration list for PBXNativeTarget "idusTests" */;
+			buildPhases = (
+				B0477762641E9243EF8313CC /* [CP] Check Pods Manifest.lock */,
+				CF1F693725C7BAF700051DCA /* Sources */,
+				CF1F693825C7BAF700051DCA /* Frameworks */,
+				CF1F693925C7BAF700051DCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF1F693D25C7BAF700051DCA /* PBXTargetDependency */,
+			);
+			name = idusTests;
+			productName = idusTests;
+			productReference = CF1F693B25C7BAF700051DCA /* idusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF1F694525C7BAF700051DCA /* idusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1F695525C7BAF700051DCA /* Build configuration list for PBXNativeTarget "idusUITests" */;
+			buildPhases = (
+				3CD5842E970747E14D09DBF0 /* [CP] Check Pods Manifest.lock */,
+				CF1F694225C7BAF700051DCA /* Sources */,
+				CF1F694325C7BAF700051DCA /* Frameworks */,
+				CF1F694425C7BAF700051DCA /* Resources */,
+				5A18E60438E02C5D7D090DC0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF1F694825C7BAF700051DCA /* PBXTargetDependency */,
+			);
+			name = idusUITests;
+			productName = idusUITests;
+			productReference = CF1F694625C7BAF700051DCA /* idusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF1F691D25C7BAF700051DCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					CF1F692425C7BAF700051DCA = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					CF1F693A25C7BAF700051DCA = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = CF1F692425C7BAF700051DCA;
+					};
+					CF1F694525C7BAF700051DCA = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = CF1F692425C7BAF700051DCA;
+					};
+				};
+			};
+			buildConfigurationList = CF1F692025C7BAF700051DCA /* Build configuration list for PBXProject "idus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1F691C25C7BAF700051DCA;
+			productRefGroup = CF1F692625C7BAF700051DCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF1F692425C7BAF700051DCA /* idus */,
+				CF1F693A25C7BAF700051DCA /* idusTests */,
+				CF1F694525C7BAF700051DCA /* idusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF1F692325C7BAF700051DCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1F693525C7BAF700051DCA /* LaunchScreen.storyboard in Resources */,
+				CF1F693225C7BAF700051DCA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1F693925C7BAF700051DCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1F694425C7BAF700051DCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02153E384FC0D8DCD7850499 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-idus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CD5842E970747E14D09DBF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-idus-idusUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A18E60438E02C5D7D090DC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-idus-idusUITests/Pods-idus-idusUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-idus-idusUITests/Pods-idus-idusUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-idus-idusUITests/Pods-idus-idusUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0477762641E9243EF8313CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-idusTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDDDDE41E0B2031861D297B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-idus/Pods-idus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-idus/Pods-idus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-idus/Pods-idus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF1F692125C7BAF700051DCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1F692925C7BAF700051DCA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1F693725C7BAF700051DCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1F694025C7BAF700051DCA /* idusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1F694225C7BAF700051DCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1F694B25C7BAF700051DCA /* idusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF1F693D25C7BAF700051DCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF1F692425C7BAF700051DCA /* idus */;
+			targetProxy = CF1F693C25C7BAF700051DCA /* PBXContainerItemProxy */;
+		};
+		CF1F694825C7BAF700051DCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF1F692425C7BAF700051DCA /* idus */;
+			targetProxy = CF1F694725C7BAF700051DCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF1F693325C7BAF700051DCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF1F693425C7BAF700051DCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF1F694D25C7BAF700051DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF1F694E25C7BAF700051DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF1F695025C7BAF700051DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DAABD7BEB7EACE0AA234F6C /* Pods-idus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = idus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.idus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF1F695125C7BAF700051DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6677168159924923460DB0D /* Pods-idus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = idus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.idus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF1F695325C7BAF700051DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1361BB7F3A9B8F07B83DF278 /* Pods-idusTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = idusTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.idusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/idus.app/idus";
+			};
+			name = Debug;
+		};
+		CF1F695425C7BAF700051DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B2EA653A6D66A29F7DDBAA3 /* Pods-idusTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = idusTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.idusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/idus.app/idus";
+			};
+			name = Release;
+		};
+		CF1F695625C7BAF700051DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B063BA9F00E63C32B99FB6C8 /* Pods-idus-idusUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = idusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.idusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = idus;
+			};
+			name = Debug;
+		};
+		CF1F695725C7BAF700051DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F648C03511BFEBAA41F8F3C /* Pods-idus-idusUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = idusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.idusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = idus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF1F692025C7BAF700051DCA /* Build configuration list for PBXProject "idus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1F694D25C7BAF700051DCA /* Debug */,
+				CF1F694E25C7BAF700051DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF1F694F25C7BAF700051DCA /* Build configuration list for PBXNativeTarget "idus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1F695025C7BAF700051DCA /* Debug */,
+				CF1F695125C7BAF700051DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF1F695225C7BAF700051DCA /* Build configuration list for PBXNativeTarget "idusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1F695325C7BAF700051DCA /* Debug */,
+				CF1F695425C7BAF700051DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF1F695525C7BAF700051DCA /* Build configuration list for PBXNativeTarget "idusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1F695625C7BAF700051DCA /* Debug */,
+				CF1F695725C7BAF700051DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF1F691D25C7BAF700051DCA /* Project object */;
+}
