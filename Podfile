@@ -10,7 +10,9 @@ target 'idus' do
   pod 'RxCocoa', '6.0.0'
   pod 'Moya', '~> 14.0'
   pod 'Kingfisher', '~> 6.0'
+  pod 'SnapKit', '~> 5.0.0'
 
+  
   target 'idusTests' do
     inherit! :search_paths
     # Pods for testing
