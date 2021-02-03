@@ -11,8 +11,8 @@ target 'idus' do
   pod 'Moya', '~> 14.0'
   pod 'Kingfisher', '~> 6.0'
   pod 'SnapKit', '~> 5.0.0'
+  pod "AlignedCollectionViewFlowLayout"
 
-  
   target 'idusTests' do
     inherit! :search_paths
     # Pods for testing
