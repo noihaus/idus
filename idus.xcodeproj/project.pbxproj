@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,17 @@
 		CF1F693525C7BAF700051DCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1F693325C7BAF700051DCA /* LaunchScreen.storyboard */; };
 		CF1F694025C7BAF700051DCA /* idusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1F693F25C7BAF700051DCA /* idusTests.swift */; };
 		CF1F694B25C7BAF700051DCA /* idusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1F694A25C7BAF700051DCA /* idusUITests.swift */; };
+		CF5E75A025C7F83F005DEF39 /* ScreenshotCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E759F25C7F83F005DEF39 /* ScreenshotCollectionViewCell.swift */; };
+		CF5E8C2725CA734E0073638F /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E8C2625CA734E0073638F /* CategoryCollectionViewCell.swift */; };
+		CFA08B5425C7E409000BB3EF /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA08B5325C7E409000BB3EF /* DataModel.swift */; };
+		CFA08B6925C7E4D1000BB3EF /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA08B6825C7E4D1000BB3EF /* DataProvider.swift */; };
+		CFA08B7125C7E62D000BB3EF /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA08B7025C7E62D000BB3EF /* Coordinator.swift */; };
+		CFA08B7625C7E65D000BB3EF /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA08B7525C7E65D000BB3EF /* AppCoordinator.swift */; };
+		CFA08B7B25C7E7E0000BB3EF /* AppStoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA08B7A25C7E7E0000BB3EF /* AppStoreViewModel.swift */; };
+		CFA08B8025C7E7F4000BB3EF /* AppStoreCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA08B7F25C7E7F4000BB3EF /* AppStoreCoordinator.swift */; };
+		CFA08B8525C7E811000BB3EF /* AppStoreInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA08B8425C7E811000BB3EF /* AppStoreInteractor.swift */; };
+		CFA08B9025C7E853000BB3EF /* AppStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA08B8F25C7E853000BB3EF /* AppStoreViewController.swift */; };
+		CFE900DB25C9A8A100427FC9 /* SeperatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE900DA25C9A8A100427FC9 /* SeperatorView.swift */; };
 		CFEB62E973144DC46A98A287 /* Pods_idus_idusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090276574F6C9FE8A8607C9B /* Pods_idus_idusUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +65,17 @@
 		CF1F694625C7BAF700051DCA /* idusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = idusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF1F694A25C7BAF700051DCA /* idusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = idusUITests.swift; sourceTree = "<group>"; };
 		CF1F694C25C7BAF700051DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF5E759F25C7F83F005DEF39 /* ScreenshotCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotCollectionViewCell.swift; sourceTree = "<group>"; };
+		CF5E8C2625CA734E0073638F /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		CFA08B5325C7E409000BB3EF /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		CFA08B6825C7E4D1000BB3EF /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		CFA08B7025C7E62D000BB3EF /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		CFA08B7525C7E65D000BB3EF /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		CFA08B7A25C7E7E0000BB3EF /* AppStoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreViewModel.swift; sourceTree = "<group>"; };
+		CFA08B7F25C7E7F4000BB3EF /* AppStoreCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreCoordinator.swift; sourceTree = "<group>"; };
+		CFA08B8425C7E811000BB3EF /* AppStoreInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreInteractor.swift; sourceTree = "<group>"; };
+		CFA08B8F25C7E853000BB3EF /* AppStoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreViewController.swift; sourceTree = "<group>"; };
+		CFE900DA25C9A8A100427FC9 /* SeperatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeperatorView.swift; sourceTree = "<group>"; };
 		D6677168159924923460DB0D /* Pods-idus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idus.release.xcconfig"; path = "Target Support Files/Pods-idus/Pods-idus.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,7 +127,6 @@
 				1361BB7F3A9B8F07B83DF278 /* Pods-idusTests.debug.xcconfig */,
 				6B2EA653A6D66A29F7DDBAA3 /* Pods-idusTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -134,6 +155,12 @@
 		CF1F692725C7BAF700051DCA /* idus */ = {
 			isa = PBXGroup;
 			children = (
+				CFA08B6725C7E4B3000BB3EF /* provider */,
+				CFA08B5025C7E025000BB3EF /* coordinator */,
+				CFA08B5125C7E02D000BB3EF /* interactor */,
+				CFA08B4D25C7E012000BB3EF /* model */,
+				CFA08B4E25C7E019000BB3EF /* viewmodel */,
+				CFA08B4F25C7E021000BB3EF /* view */,
 				CF1F692825C7BAF700051DCA /* AppDelegate.swift */,
 				CF1F693125C7BAF700051DCA /* Assets.xcassets */,
 				CF1F693325C7BAF700051DCA /* LaunchScreen.storyboard */,
@@ -158,6 +185,75 @@
 				CF1F694C25C7BAF700051DCA /* Info.plist */,
 			);
 			path = idusUITests;
+			sourceTree = "<group>";
+		};
+		CF5E75A425C7F845005DEF39 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				CF5E759F25C7F83F005DEF39 /* ScreenshotCollectionViewCell.swift */,
+				CF5E8C2625CA734E0073638F /* CategoryCollectionViewCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		CF5E8C2C25CA8D5A0073638F /* components */ = {
+			isa = PBXGroup;
+			children = (
+				CFE900DA25C9A8A100427FC9 /* SeperatorView.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		CFA08B4D25C7E012000BB3EF /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CFA08B5325C7E409000BB3EF /* DataModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		CFA08B4E25C7E019000BB3EF /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				CFA08B7A25C7E7E0000BB3EF /* AppStoreViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		CFA08B4F25C7E021000BB3EF /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CF5E8C2C25CA8D5A0073638F /* components */,
+				CF5E75A425C7F845005DEF39 /* cell */,
+				CFA08B8F25C7E853000BB3EF /* AppStoreViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		CFA08B5025C7E025000BB3EF /* coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				CFA08B7025C7E62D000BB3EF /* Coordinator.swift */,
+				CFA08B7525C7E65D000BB3EF /* AppCoordinator.swift */,
+				CFA08B7F25C7E7F4000BB3EF /* AppStoreCoordinator.swift */,
+			);
+			path = coordinator;
+			sourceTree = "<group>";
+		};
+		CFA08B5125C7E02D000BB3EF /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CFA08B8425C7E811000BB3EF /* AppStoreInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		CFA08B6725C7E4B3000BB3EF /* provider */ = {
+			isa = PBXGroup;
+			children = (
+				CFA08B6825C7E4D1000BB3EF /* DataProvider.swift */,
+			);
+			path = provider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -397,7 +493,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFA08B8525C7E811000BB3EF /* AppStoreInteractor.swift in Sources */,
+				CFA08B7125C7E62D000BB3EF /* Coordinator.swift in Sources */,
+				CFA08B6925C7E4D1000BB3EF /* DataProvider.swift in Sources */,
+				CFA08B7625C7E65D000BB3EF /* AppCoordinator.swift in Sources */,
+				CF5E8C2725CA734E0073638F /* CategoryCollectionViewCell.swift in Sources */,
+				CF5E75A025C7F83F005DEF39 /* ScreenshotCollectionViewCell.swift in Sources */,
+				CFA08B9025C7E853000BB3EF /* AppStoreViewController.swift in Sources */,
 				CF1F692925C7BAF700051DCA /* AppDelegate.swift in Sources */,
+				CFA08B7B25C7E7E0000BB3EF /* AppStoreViewModel.swift in Sources */,
+				CFE900DB25C9A8A100427FC9 /* SeperatorView.swift in Sources */,
+				CFA08B5425C7E409000BB3EF /* DataModel.swift in Sources */,
+				CFA08B8025C7E7F4000BB3EF /* AppStoreCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
