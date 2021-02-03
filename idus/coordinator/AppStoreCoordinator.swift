@@ -8,9 +8,10 @@
 import UIKit
 
 protocol AppStoreCoordinatorProtocol: Coordinator {
+    func present()
 }
 class AppStoreCoordinator: AppStoreCoordinatorProtocol {
-    
+
     weak var navigatorController: UINavigationController?
     
     init(navigationController: UINavigationController) {
@@ -28,5 +29,7 @@ class AppStoreCoordinator: AppStoreCoordinatorProtocol {
         containerViewController.title = "아이디어스(idus)"
         containerViewController.view.backgroundColor = #colorLiteral(red: 0.9278188944, green: 0.9205012321, blue: 0.9334129095, alpha: 1)
         navi.pushViewController(containerViewController, animated: true)
+    }
+    func present() {
     }
 }
