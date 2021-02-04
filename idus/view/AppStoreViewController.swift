@@ -11,10 +11,10 @@ import SnapKit
 import AlignedCollectionViewFlowLayout
 
 class AppStoreViewController: UIViewController {
-    
+    // MARK:- screenshot UI
     lazy var screenshotCollectionView: UICollectionView = {
-        let layout = UICollectionViewFlowLayout()
         let size = self.view.bounds.height * 0.5
+        let layout = UICollectionViewFlowLayout()
         layout.minimumLineSpacing = 0
         layout.minimumInteritemSpacing = 0
         layout.scrollDirection = .horizontal
@@ -30,20 +30,21 @@ class AppStoreViewController: UIViewController {
         }
         return cv
     }()
-    lazy var fileSizeLabel: UILabel = {
-        let label = UILabel(frame: .zero)
+    
+    // MARK:- filesize UI
+    lazy var fileSizeLabel: CLabel = {
+        let label = CLabel(frame: .zero)
         label.textColor = #colorLiteral(red: 0.2745098174, green: 0.4862745106, blue: 0.1411764771, alpha: 1)
-        label.font = .systemFont(ofSize: fontSize)
         label.textAlignment = .right
-        label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
     lazy var filesizeView: UIView = {
+        let label: CLabel = {
+            let label = CLabel(frame: .zero)
+            label.text = "크기"
+            return label
+        }()
         let view = UIView(frame: .zero)
-        let label = UILabel(frame: .zero)
-        label.text = "크기"
-        label.font = .systemFont(ofSize: fontSize)
-        label.translatesAutoresizingMaskIntoConstraints = false
         view.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(label)
         view.addSubview(fileSizeLabel)
@@ -60,12 +61,12 @@ class AppStoreViewController: UIViewController {
         }
         return view
     }()
-    lazy var releaseVersion: UILabel = {
-        let label = UILabel(frame: .zero)
+    
+    // MARK:- releaseVersion UI
+    lazy var releaseVersion: CLabel = {
+        let label = CLabel(frame: .zero)
         label.textColor = #colorLiteral(red: 0.2745098174, green: 0.4862745106, blue: 0.1411764771, alpha: 1)
         label.textAlignment = .right
-        label.font = .systemFont(ofSize: fontSize)
-        label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
     lazy var moreImageView: UIImageView = {
@@ -78,12 +79,13 @@ class AppStoreViewController: UIViewController {
         return gesture
     }()
     lazy var releaseVersionView: UIView = {
+        let label: CLabel = {
+            let label = CLabel(frame: .zero)
+            label.text = "새로운기능"
+            return label
+        }()
         let view = UIView(frame: .zero)
-        let label = UILabel(frame: .zero)
         view.translatesAutoresizingMaskIntoConstraints = false
-        label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "새로운기능"
-        label.font = .systemFont(ofSize: fontSize)
         view.addSubview(label)
         view.addSubview(releaseVersion)
         view.addSubview(moreImageView)
@@ -105,15 +107,10 @@ class AppStoreViewController: UIViewController {
         view.addGestureRecognizer(clickGesture)
         return view
     }()
-    lazy var releaseNoteTextView: UITextView = {
-        let tv = UITextView(frame: .zero)
-        tv.translatesAutoresizingMaskIntoConstraints = false
+    // MARK:- releaseNote UI
+    lazy var releaseNoteTextView: CTextView = {
+        let tv = CTextView(frame: .zero)
         tv.textColor = #colorLiteral(red: 0.2745098174, green: 0.4862745106, blue: 0.1411764771, alpha: 1)
-        tv.textAlignment = .left
-        tv.isScrollEnabled = false
-        tv.isEditable = false
-        tv.isSelectable = false
-        tv.font = .systemFont(ofSize: fontSize)
         tv.isHidden = true
         return tv
     }()
@@ -138,44 +135,41 @@ class AppStoreViewController: UIViewController {
         sv.directionalLayoutMargins = NSDirectionalEdgeInsets(top: 0, leading: spacing, bottom: 0, trailing: spacing)
         return sv
     }()
-    lazy var descriptionTextView: UITextView = {
-        let tv = UITextView(frame: .zero)
-        tv.translatesAutoresizingMaskIntoConstraints = false
+    // MARK:- description UI
+    lazy var descriptionTextView: CTextView = {
+        let tv = CTextView(frame: .zero)
         tv.textColor = .black
         tv.textAlignment = .center
-        tv.isScrollEnabled = false
-        tv.isEditable = false
-        tv.isSelectable = false
-        tv.font = .systemFont(ofSize: fontSize)
         tv.textContainerInset = UIEdgeInsets(top: spacing, left: spacing, bottom: spacing, right: spacing)
         return tv
     }()
-    
+    // MARK:- category UI
     lazy var categoryCollectionView: UICollectionView = {
         let layout = AlignedCollectionViewFlowLayout(horizontalAlignment: .left, verticalAlignment: .top)
         layout.estimatedItemSize = UICollectionViewFlowLayout.automaticSize
-        layout.minimumLineSpacing = 8
-        layout.minimumInteritemSpacing = 8
+        layout.minimumLineSpacing = spacing/2
+        layout.minimumInteritemSpacing = spacing/2
         let cv = UICollectionView(frame: .zero, collectionViewLayout: layout)
         cv.register(CategoryCollectionViewCell.self, forCellWithReuseIdentifier: categoryCell)
         cv.backgroundColor = .white
         cv.translatesAutoresizingMaskIntoConstraints = false
         let size = self.view.bounds.width
         cv.snp.makeConstraints { (make) in
-            make.height.equalTo(10)
+            make.height.equalTo(spacing)
         }
         return cv
     }()
     lazy var categoryStackView: UIStackView = {
+        let label: CLabel = {
+            let label = CLabel(frame: .zero)
+            label.text = "카테고리"
+            return label
+        }()
         let sv = UIStackView(frame: .zero)
         sv.axis = .vertical
         sv.distribution = .fill
         sv.backgroundColor = .white
         sv.spacing = spacing
-        let label = UILabel(frame: .zero)
-        label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "카테고리"
-        label.font = .systemFont(ofSize: fontSize)
         sv.addArrangedSubview(label)
         sv.addArrangedSubview(categoryCollectionView)
         sv.isLayoutMarginsRelativeArrangement = true
@@ -205,7 +199,6 @@ class AppStoreViewController: UIViewController {
     let screenshotCell = "screenshotCell"
     let categoryCell = "categoryCell"
     let spacing: CGFloat = 16
-    let fontSize: CGFloat = 14
     
     var viewmodel: AppStoreViewModelType
     let disposebag = DisposeBag()
@@ -217,16 +210,18 @@ class AppStoreViewController: UIViewController {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    // MARK:- life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setView()
         self.setAutoLayout()
-        self.bindUI()
+        self.bindToViewModel()
         
         viewmodel.inputs.fetchData()
     }
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
+        //collectionview dynamic height
         let height = categoryCollectionView.collectionViewLayout.collectionViewContentSize.height
         categoryCollectionView.snp.remakeConstraints { (make) in
             make.height.equalTo(height)
@@ -234,6 +229,7 @@ class AppStoreViewController: UIViewController {
         self.view.layoutIfNeeded()
     }
 }
+// MARK:- SET UI
 extension AppStoreViewController {
     func setView() {
         self.view.addSubview(scrollView)
@@ -247,7 +243,7 @@ extension AppStoreViewController {
             make.width.equalTo(self.scrollView)
         }
     }
-    func bindUI() {
+    func bindToViewModel() {
         viewmodel.outputs.screenshotUrl
             .bind(to: screenshotCollectionView.rx.items(cellIdentifier: screenshotCell, cellType: ScreenshotCollectionViewCell.self)) {
                 (row, element, cell) in
@@ -271,7 +267,7 @@ extension AppStoreViewController {
             .bind(to: releaseNoteTextView.rx.text)
             .disposed(by: disposebag)
         
-        clickGesture.rx.event.bind(onNext: { [weak self] recognizer in
+        clickGesture.rx.event.bind(onNext: { [weak self] _ in
             UIView.animate(withDuration: 0.2) {
                 let isHidden = !(self?.releaseNoteTextView.isHidden ?? false)
                 self?.releaseNoteTextView.isHidden = isHidden
